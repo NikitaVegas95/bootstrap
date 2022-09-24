@@ -1,0 +1,357 @@
+@media (max-width: 768px) {
+  .hero__title {
+    margin-bottom: 16px;
+    font-size: 50px;
+  }
+
+  .hero__text {
+    max-width: 345px;
+  }
+
+  .hero__picture {
+    padding-top: 99px;
+    padding-left: 0;
+  }
+
+  .advantage__background-img {
+    padding-left: 255px;
+    background-image: url("../picture/advantages/titile-img-mobole.jpg");
+    background-position: 15px 104px;
+  }
+
+  .advantage__sub-text_img-eye {
+    background: url(../picture/advantages/eye.png) no-repeat top left;
+  }
+
+  .advantage__sub-text_img-hand {
+    background: url(../picture/advantages/hand.png) no-repeat top left;
+  }
+
+  .advantage__sub-text_img-gramophone {
+    background: url(../picture/advantages/gramophone.png) no-repeat top left;
+  }
+
+  .advantage__sub-text {
+    padding-left: 0;
+    padding-top: 91px;
+  }
+
+  .advantage {
+    padding-bottom: 75px;
+  }
+
+  .teachers__text {
+    max-width: 345px;
+  }
+
+  .col-md-6_margin {
+    margin-bottom: 23px;
+  }
+
+  .teachers {
+    min-height: 892px;
+  }
+
+  .courses__img {
+    padding-left: 0;
+    border-radius: 24px 24px 0 0;
+  }
+
+  .courses__time {
+    top: 13px;
+    right: 25px;
+  }
+
+  .courses__sub-title {
+    margin-bottom: 7px;
+  }
+
+  .courses__text {
+    margin-bottom: 89px;
+  }
+
+  .courses__cards {
+    padding: 31px 24px 30px 30px;
+    flex-grow: 1;
+  }
+
+  .courses__text_width {
+    max-width: 284px;
+  }
+
+  .courses__cards_padding {
+    padding: 31px 22px 30px 30px;
+  }
+
+  .courses__btn {
+    padding: 21px 57px 20px 55px;
+  }
+
+  .footer__contacts {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px), (max-width: 576px) {
+  .header__display {
+    display: block;
+  }
+
+  .header__logo-img {
+    margin: 0 auto;
+    margin-bottom: 32px;
+  }
+
+  .header__nav-item:not(:last-child) {
+    margin-right: 36px;
+    padding-left: 20px;
+  }
+
+  .header__nav-item:nth-child(2n) {
+    margin-right: 37px;
+  }
+
+  .header__nav-item:nth-child(3n) {
+    margin-right: 57px;
+  }
+
+  .hero__title {
+    padding-top: 77px;
+  }
+
+  .hero__picture {
+    display: none;
+  }
+
+  .hero__wrapper {
+    min-height: 567px;
+  }
+
+  .advantage__background-img {
+    padding-left: 195px;
+  }
+
+  .advantage__background-img {
+    background-image: url(../picture/advantages/titile-img-mobole-510.jpg);
+    background-position: 15px 80px;
+  }
+
+  .advantage__text {
+    margin-bottom: 23px;
+  }
+
+  .advantage {
+    padding-bottom: 54px;
+  }
+
+  .teachers {
+    min-height: 940px;
+  }
+
+  .courses__sub-title {
+    line-height: 130%;
+  }
+
+  .courses__cards {
+    min-height: 473px;
+  }
+
+  .courses__sub-title-width {
+    max-width: 168px;
+  }
+
+  .courses__btn {
+    padding: 21px 49px 20px 48px;
+  }
+
+}
+
+
+
+@media (max-width: 560px), (max-width: 320px) {
+  .header__display {
+    display: flex;
+    padding-top: 32px;
+    padding-bottom: 0;
+  }
+
+  .header__nav {
+    display: none;
+  }
+
+  .hero__title {
+    margin-bottom: 5px;
+    padding-top: 50px;
+    font-size: 30px;
+  }
+
+  .hero__text {
+    margin-bottom: 45px;
+    font-size: 16px;
+    line-height: 130%;
+  }
+
+  .hero__btn {
+    min-height: 60px;
+    padding: 20px 54px 20px 54px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .hero__wrapper {
+    min-height: 353px;
+  }
+
+  .advantage__background-img {
+    padding-left: 15px;
+    background-image: none;
+    background-position: 0;
+  }
+
+  .advantage__title {
+    margin-bottom: 3px;
+    padding-top: 50px;
+    font-size: 20px;
+    line-height: 130%;
+  }
+
+  .advantage__sub-text {
+    padding-top: 0;
+    padding-left: 110px;
+  }
+
+  .advantage__sub-text_img-eye {
+    background: url(../picture/advantages/eye.png) no-repeat left;
+  }
+
+  .advantage__sub-text_margin {
+    margin-bottom: 30px;
+  }
+
+  .advantage__text {
+    margin-bottom: 22px;
+  }
+
+  .advantage {
+    padding-bottom: 50px;
+  }
+
+  .teachers__title {
+    margin-bottom: 27px;
+    padding-top: 47px;
+    font-size: 20px;
+    line-height: 100%;
+  }
+
+  .teachers__text_margin {
+    margin-bottom: 23px;
+  }
+
+  .teachers {
+    min-height: 1550px;
+  }
+
+  .courses__title {
+    margin-bottom: 27px;
+    padding-top: 46px;
+    font-size: 20px;
+  }
+
+  .courses__text {
+    max-width: 230px;
+  }
+
+  .courses__btn {
+    padding: 21px 56px 20px 56px;
+  }
+
+  .courses {
+    padding-bottom: 20px;
+  }
+
+  .footer__contacts {
+    padding-top: 0px;
+    padding-left: 2px;
+    padding-right: 5px;
+    padding-bottom: 0;
+  }
+
+  .footer__wrapper {
+    min-height: 80px;
+  }
+
+  .footer__contacts_padding {
+    padding-top: 27px;
+  }
+
+  /*burger*/
+
+  .header__logo-img {
+    margin-bottom: 0;
+  }
+
+  .header__btn {
+    position: absolute;
+    top: 25px;
+    right: 15px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .button:focus:not(:focus-visible) {
+    outline: solid var(--advantages-text);
+  }
+
+  .header__btn:focus {
+    color: var(--advantages-text);
+    outline: 2px solid var(--advantages-text);
+    outline-offset: 3px;
+  }
+
+  .burger__line:hover {
+    border-color: var(--advantages-text);
+  }
+
+  .burger__line {
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 20px;
+    border-top: 2px solid var(--white-color);
+    border-radius: 10px;
+  }
+
+  .burger__line::before {
+    position: absolute;
+    top: 6px;
+    left: 0;
+    content: " ";
+    width: 20px;
+    border-top: 2px solid var(--white-color);
+    border-radius: 10px;
+  }
+
+  .burger__line::after {
+    position: absolute;
+    top: 14px;
+    left: 0;
+    content: " ";
+    width: 20px;
+    border-top: 2px solid var(--white-color);
+    border-radius: 10px;
+  }
+
+  .burger__line:hover::before, .burger__line:focus::before {
+    border-color: var(--advantages-text);
+    width: 70%;
+    transition: width 0.3s ease, background-color 0.3s ease;
+  }
+
+  .burger__line:hover::after, .burger__line:focus::after {
+    border-color: var(--advantages-text);
+    width: 50%;
+    transition: width 0.3s ease, background-color 0.3s ease;
+  }
+}
